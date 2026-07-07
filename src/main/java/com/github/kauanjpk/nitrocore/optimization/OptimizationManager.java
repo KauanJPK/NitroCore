@@ -5,7 +5,6 @@ import java.util.EnumMap;
 import java.util.Map;
 
 import com.github.kauanjpk.nitrocore.logging.NitroLog;
-import com.github.kauanjpk.nitrocore.optimization.particles.ParticleOptimization;
 
 /**
  * Central optimization manager.
@@ -113,24 +112,4 @@ public final class OptimizationManager {
         NitroLog.info("Optimization profile changed to: " + profile.name());
 
     }
-
-    /**
-     * Returns whether particles should be rendered.
-     *
-     * <p>
-     * Temporary implementation until the configuration system is added.
-     * </p>
-     */
-    public static boolean shouldRenderParticles() {
-
-        OptimizationModule module = MODULES.get(OptimizationType.PARTICLES);
-
-        if (module == null) {
-            return true;
-        }
-
-        return ((ParticleOptimization) module).shouldRenderParticles();
-
-    }
-
 }

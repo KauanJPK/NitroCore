@@ -6,7 +6,7 @@ This project follows Semantic Versioning.
 
 ---
 
-## [0.0.2] - Optimization Framework
+## [0.0.2] - Foundation
 
 ### Added
 
@@ -27,7 +27,7 @@ This project follows Semantic Versioning.
 
 ---
 
-## [0.0.1] - Foundation
+## [0.0.1] - Genesis
 
 ### Added
 
