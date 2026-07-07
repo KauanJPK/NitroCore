@@ -1,0 +1,24 @@
+{
+  "modListVersion": 2,
+  "modList": [
+    {
+      "modid": "nitrocore",
+      "name": "NitroCore",
+      "description": "NitroCore is a lightweight client-side optimization engine for Minecraft Forge 1.7.10. Designed to maximize FPS by removing unnecessary rendering, particles, visual effects and client-side overhead while maintaining compatibility with large modpacks. Built for everyone—from low-end PCs to PojavLauncher.",
+      "version": "0.0.1",
+      "mcversion": "1.7.10",
+      "url": "https://github.com/KauanJPK/NitroCore",
+      "updateUrl": "",
+      "authorList": [
+        "PowerKup"
+      ],
+      "credits": "Built with RetroFuturaGradle, GTNH Convention Plugin, UniMixins and the Minecraft Forge community.",
+      "logoFile": "assets/nitrocore/logo.png",
+      "parent": "",
+      "requiredMods": [],
+      "dependencies": [],
+      "dependants": [],
+      "useDependencyInformation": false
+    }
+  ]
+}
