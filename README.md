@@ -55,10 +55,13 @@ Instead of applying isolated tweaks, NitroCore restructures the client rendering
 
 | Feature | Status |
 |---------|--------|
-| Project Setup | ✅ |
-| Mixin Loader | 🚧 |
+| Project Foundation | ✅ |
+| Logging System | ✅ |
+| Mixin Infrastructure | ✅ |
+| Optimization Framework | 🚧 |
 | Particle Optimizer | ⏳ |
 | Weather Optimizer | ⏳ |
+| Render Optimizer | ⏳ |
 | Render Optimizer | ⏳ |
 | Memory Optimizer | ⏳ |
 | Benchmark System | ⏳ |
@@ -80,7 +83,28 @@ Launch Minecraft.
 Done.
 
 ---
+## 🏗 Architecture
 
+```text
+NitroCore
+│
+├── Logging
+├── Optimization Framework
+├── Mixins
+├── Config
+└── Future Modules
+```
+---
+## 🚧 Project Status
+
+NitroCore is currently in early development.
+
+Current milestone:
+
+- ✅ Foundation
+- 🚧 Optimization Framework
+- ⏳ Particle Optimization
+---
 # ❤️ Credits
 
 Created by **PowerKup**
