@@ -18,7 +18,7 @@ Porque ele vai te impedir de perder o foco.
 - [✅] OptimizationManager
 - [✅] OptimizationRegistry
 - [✅] OptimizationModule
-- [✅] OptimizationProfile
+- [] OptimizationProfile
 
 ---
 

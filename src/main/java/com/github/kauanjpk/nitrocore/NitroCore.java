@@ -1,6 +1,7 @@
 package com.github.kauanjpk.nitrocore;
 
 import com.github.kauanjpk.nitrocore.logging.NitroLog;
+import com.github.kauanjpk.nitrocore.optimization.OptimizationRegistry;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -13,7 +14,9 @@ public final class NitroCore {
 
         NitroLog.banner();
 
-        NitroLog.info("Initializing NitroCore...");
+        OptimizationRegistry.initialize();
+
+        NitroLog.info("NitroCore initialized.");
 
     }
 

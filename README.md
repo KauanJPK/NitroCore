@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/banner.png" width="100%"/>
+<img src="docs/img/banner.png" width="100%"/>
 
 # NitroCore
 
@@ -58,7 +58,7 @@ Instead of applying isolated tweaks, NitroCore restructures the client rendering
 | Project Foundation | ✅ |
 | Logging System | ✅ |
 | Mixin Infrastructure | ✅ |
-| Optimization Framework | 🚧 |
+| Optimization Framework | ✅ |
 | Particle Optimizer | ⏳ |
 | Weather Optimizer | ⏳ |
 | Render Optimizer | ⏳ |
@@ -102,7 +102,7 @@ NitroCore is currently in early development.
 Current milestone:
 
 - ✅ Foundation
-- 🚧 Optimization Framework
+- ✅ Optimization Framework
 - ⏳ Particle Optimization
 ---
 # ❤️ Credits
