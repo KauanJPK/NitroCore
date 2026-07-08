@@ -1,78 +1,125 @@
 <div align="center">
 
-<img src="docs/img/banner.png" width="100%"/>
+<img src="docs/img/banner.png" width="100%">
 
 # NitroCore
 
 ### ⚡ Performance Without Compromise.
 
-*A modern optimization engine for Minecraft Forge 1.7.10.*
+*A modern client-side optimization engine for Minecraft Forge 1.7.10.*
 
-![Minecraft](https://img.shields.io/badge/Minecraft-1.7.10-5E9C3F?style=for-the-badge)
-![Forge](https://img.shields.io/badge/Forge-10.13.4.1614-orange?style=for-the-badge)
-![Java](https://img.shields.io/badge/Java-8-red?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+<p>
+
+<img src="https://img.shields.io/badge/Version-v0.0.3-blueviolet?style=for-the-badge">
+<img src="https://img.shields.io/badge/Stage-Alpha-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/Minecraft-1.7.10-5E9C3F?style=for-the-badge">
+<img src="https://img.shields.io/badge/Forge-10.13.4.1614-EA7600?style=for-the-badge">
+
+</p>
+
+<p>
+
+<img src="https://img.shields.io/badge/Java-8-E76F00?style=for-the-badge&logo=openjdk&logoColor=white">
+<img src="https://img.shields.io/badge/Client-Side-00B894?style=for-the-badge">
+<img src="https://img.shields.io/badge/License-MIT-3498DB?style=for-the-badge">
+
+</p>
+
+<p>
+
+<a href="#-about">About</a> •
+<a href="#-why-nitrocore">Why NitroCore</a> •
+<a href="#-planned-features">Features</a> •
+<a href="#-project-goals">Goals</a> •
+<a href="#-design-principles">Principles</a> •
+<a href="#-installation">Installation</a> •
+<a href="#-guides">Guides</a> •
+<a href="#-architecture">Architecture</a> •
+<a href="#-roadmap">Roadmap</a> •
+<a href="#-community">Community</a>
+
+</p>
 
 </div>
 
 ---
 
-# 🚀 About
-
-NitroCore is a next-generation optimization engine built specifically for Minecraft Forge 1.7.10.
-
-Instead of applying isolated tweaks, NitroCore restructures the client rendering pipeline to eliminate unnecessary work, dramatically improving frame rate and reducing memory usage while remaining compatible with large modpacks.
+> ## Optimizing work, not removing features.
+>
+> NitroCore is built to reduce unnecessary client-side workload while preserving the original Minecraft experience.
 
 ---
 
-# ✨ Features
+# 🚀 About
 
-- 🚀 Particle Optimizer
-- 🌧 Weather Optimizer
-- ☁ Cloud Optimizer
-- 🔥 Animation Optimizer
-- 🎨 Render Optimizer
-- 📦 Chunk Optimizer
-- 👤 Entity Optimizer
-- 🧠 Memory Optimizer
+NitroCore is a modern optimization engine built exclusively for **Minecraft Forge 1.7.10**.
+
+Instead of simply lowering graphics quality, NitroCore focuses on reducing unnecessary CPU work, improving frame-time consistency and making large Forge modpacks smoother on both low-end computers and Android devices running PojavLauncher.
+
+NitroCore is completely client-side and requires **no server installation**.
+
+---
+
+# ⭐ Why NitroCore?
+
+Most optimization mods improve FPS by reducing visual quality.
+
+NitroCore follows a different philosophy.
+
+The project optimizes how the Minecraft client performs work internally, minimizing unnecessary calculations and rendering while preserving compatibility, gameplay and visual fidelity whenever possible.
+
+The goal is not simply higher FPS.
+
+The goal is a smoother and more efficient Minecraft experience.
+
+---
+
+# ✨ Planned Features
+
+- 🚀 Particle Optimization
+- 🌧 Weather Optimization
+- ☁ Cloud Optimization
+- 🔥 Animation Optimization
+- 🎨 Rendering Optimization
+- 📦 Chunk Optimization
+- 👤 Entity Optimization
+- 🧠 Memory Optimization
+- 🔋 Battery Optimization
 - ⚙ Smart Optimization Profiles
 - 🧩 High Mod Compatibility
 
 ---
 
-# 🎯 Goals
+# 🎯 Project Goals
 
-- Increase FPS
-- Reduce RAM usage
-- Improve frame stability
-- Zero server installation
-- Maximum compatibility
-- Easy configuration
+- Reduce CPU usage
+- Improve frame-time consistency
+- Reduce unnecessary rendering
+- Reduce memory allocations
+- Improve battery efficiency
+- Preserve vanilla gameplay
+- Maintain maximum compatibility
+- Require zero server installation
 
 ---
 
-# 📊 Roadmap
+# 💜 Design Principles
 
-| Feature | Status |
-|---------|--------|
-| Project Foundation | ✅ |
-| Logging System | ✅ |
-| Mixin Infrastructure | ✅ |
-| Optimization Framework | ✅ |
-| Particle Optimizer | ⏳ |
-| Weather Optimizer | ⏳ |
-| Render Optimizer | ⏳ |
-| Render Optimizer | ⏳ |
-| Memory Optimizer | ⏳ |
-| Benchmark System | ⏳ |
+Every optimization inside NitroCore follows the same principles.
+
+- ⚡ Performance before FPS
+- 🧩 Compatibility before aggressive optimization
+- 🎮 Client-side only
+- 📊 Measurable improvements
+- 🚀 Performance Without Compromise
 
 ---
 
 # 📦 Installation
 
-Download the latest release.
+Download the latest release from GitHub.
 
-Place it inside:
+Place the JAR inside:
 
 ```text
 mods/
@@ -83,41 +130,122 @@ Launch Minecraft.
 Done.
 
 ---
-## 🏗 Architecture
+
+# 📚 Guides
+
+| Guide | Status |
+|--------|:------:|
+| [PojavLauncher](docs/launcher/POJAV.md) | 🚧 |
+| [Prism Launcher](docs/launcher/PRISM.md) | 🚧 |
+| [MultiMC](docs/launcher/MULTIMC.md) | 🚧 |
+| [CurseForge](docs/launcher/CURSEFORGE.md) | 🚧 |
+| [TLauncher](docs/launcher/TLAUNCHER.md) | 🚧 |
+| Optimization Profiles | 🚧 |
+| Benchmarks | 🚧 |
+
+---
+
+# 🏗 Architecture
 
 ```text
-NitroCore
-│
-├── Logging
-├── Optimization Framework
-├── Mixins
-├── Config
-└── Future Modules
+Minecraft Client
+        │
+        ▼
+     Mixins
+        │
+        ▼
+OptimizationManager
+        │
+        ▼
+Optimization Modules
+        │
+        ▼
+ Configuration
 ```
+
+For a complete overview:
+
+- docs/ARCHITECTURE.md
+
 ---
-## 🚧 Project Status
 
-NitroCore is currently in early development.
+# 📊 Roadmap
 
-Current milestone:
+| Feature | Status |
+|---------|:------:|
+| Project Foundation | ✅ |
+| Logging System | ✅ |
+| Mixin Infrastructure | ✅ |
+| Optimization Framework | ✅ |
+| Configuration System | 🚧 |
+| Particle Optimization | ⏳ |
+| Weather Optimization | ⏳ |
+| Animation Optimization | ⏳ |
+| Render Optimization | ⏳ |
+| Memory Optimization | ⏳ |
+| Benchmark System | ⏳ |
 
-- ✅ Foundation
-- ✅ Optimization Framework
-- ⏳ Particle Optimization
+Complete roadmap:
+
+- docs/ROADMAP.md
+
 ---
+
+# 🚧 Current Milestone
+
+## v0.0.3 "Ignition"
+
+Current Sprint
+
+- 🚧 Configuration System
+- 🚧 Optimization Manager
+- 🚧 Optimization Profiles
+- 🚧 Documentation
+- 🚧 Logging Improvements
+
+---
+
+# 🌐 Community
+
+| Resource | Status |
+|----------|:------:|
+| GitHub Issues | ✅ |
+| GitHub Discussions | 🚧 |
+| Wiki | 🚧 |
+
+---
+
 # ❤️ Credits
 
-Created by **PowerKup**
+Created and maintained by
 
-Built with
+## **KauanJPK**
 
-- Minecraft Forge
-- RetroFuturaGradle
-- GTNH Convention Plugin
-- UniMixins
+Special thanks to:
+
+- Minecraft Forge Community
+- GT New Horizons Team
+- RetroFuturaGradle Developers
+- UniMixins Developers
 
 ---
 
 # 📜 License
 
-MIT License
+NitroCore is licensed under the **MIT License**.
+
+See the LICENSE file for more information.
+
+---
+
+<div align="center">
+
+# NitroCore
+
+### ⚡ Performance Without Compromise.
+
+Built with ❤️ by **KauanJPK**
+
+© 2026 KauanJPK
+
+</div>
