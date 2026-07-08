@@ -18,7 +18,7 @@ import com.github.kauanjpk.nitrocore.logging.NitroLog;
  * Mixins should communicate only with this class.
  * </p>
  *
- * @author PowerKup
+ * @author KauanJPK
  */
 public final class OptimizationManager {
 

@@ -3,7 +3,7 @@ package com.github.kauanjpk.nitrocore.optimization;
 /**
  * Defines how aggressive NitroCore should optimize the game.
  *
- * @author PowerKup
+ * @author KauanJPK
  */
 public enum OptimizationProfile {
 

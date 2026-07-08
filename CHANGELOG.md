@@ -38,3 +38,17 @@ This project follows Semantic Versioning.
 - Centralized logging system (`NitroLog`).
 - Initial documentation.
 - Branding assets.
+
+---
+
+<div align="center">
+
+# NitroCore
+
+### ⚡ Performance Without Compromise.
+
+Built with ❤️ by **KauanJPK**
+
+© 2026 KauanJPK
+
+</div>

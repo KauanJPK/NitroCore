@@ -3,7 +3,7 @@ package com.github.kauanjpk.nitrocore.optimization;
 /**
  * Categories of optimizations supported by NitroCore.
  *
- * @author PowerKup
+ * @author KauanJPK
  */
 public enum OptimizationType {
 

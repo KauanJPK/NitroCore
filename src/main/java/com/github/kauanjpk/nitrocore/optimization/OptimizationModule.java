@@ -7,7 +7,7 @@ package com.github.kauanjpk.nitrocore.optimization;
  * Every optimization module must implement this interface.
  * </p>
  *
- * @author PowerKup
+ * @author KauanJPK
  */
 public interface OptimizationModule {
 

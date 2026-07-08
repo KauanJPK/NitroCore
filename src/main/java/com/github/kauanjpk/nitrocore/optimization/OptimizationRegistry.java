@@ -9,7 +9,7 @@ import com.github.kauanjpk.nitrocore.optimization.particles.ParticleOptimization
  * This is the single entry point responsible for loading
  * all optimization modules.
  *
- * @author PowerKup
+ * @author KauanJPK
  */
 public final class OptimizationRegistry {
 

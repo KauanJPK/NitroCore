@@ -6,7 +6,7 @@ import com.github.kauanjpk.nitrocore.optimization.OptimizationType;
 /**
  * Handles every particle-related optimization.
  *
- * @author PowerKup
+ * @author KauanJPK
  */
 public final class ParticleOptimization implements OptimizationModule {
 
