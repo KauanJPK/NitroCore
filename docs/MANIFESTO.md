@@ -1,5 +1,5 @@
 <div align="center">
-<img src="docs/img/manifesto.png" width="100%">
+<img src="img/manifesto.png" width="100%">
 
 # Manifesto - NitroCore
 
