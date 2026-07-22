@@ -1,5 +1,6 @@
 package com.github.kauanjpk.nitrocore.logging;
 
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -69,9 +70,10 @@ public final class NitroLog {
     /**
      * Prints an ERROR message.
      *
-     * @param message Message to print.
+     * @param message   Message to print.
+     * @param exception
      */
-    public static void error(String message) {
+    public static void error(String message, IOException exception) {
         log("ERROR", message);
     }
 

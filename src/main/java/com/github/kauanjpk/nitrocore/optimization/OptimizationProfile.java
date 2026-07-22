@@ -1,7 +1,10 @@
 package com.github.kauanjpk.nitrocore.optimization;
 
 /**
- * Defines how aggressive NitroCore should optimize the game.
+ * Defines the optimization profiles available in NitroCore.
+ *
+ * Each profile controls how aggressively the engine reduces
+ * rendering and visual effects in favor of performance.
  *
  * @author KauanJPK
  */
