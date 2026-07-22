@@ -113,7 +113,7 @@
 
 ---
 
-## ⬜ v0.0.4 "Ignition"
+## ⬜ v0.0.4 "IgnitionOut"
 
 > The first optimization modules come to life.
 
